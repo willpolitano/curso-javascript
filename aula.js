@@ -60,14 +60,42 @@
 
 
 // Operadores 
-//     * Aritiméticos(+ - * / **)
-//     * Atribuição
-//     * Comparação
-//     * Logicos
-//     * Bitwise
+//     * Aritiméticos ( + - * / ** ++ -- )
+//     * Atribuição ( = += -= )
+//     * Comparação ( == === )
+//     * Logicos ( && and || or !)
+//     * Bitwise ( )
 
 
+// If
+//     ex :
+//     let hora = 10;
+//     if ( hora > 6 && hora < 12 ) {
+//         console.log('Bom dia!');
+//     } else if ( hora > 12 && hora < 18 ) {
+//         console.log('Boa tarde!');
+//     } else {
+//         console.log('Boa noite!');
+//     }
 
 
+// Switch
+//     ex :
+//     let permissao = 'admin';
+//     switch(permissao) {
+//         case 'admin' : 
+//         console.log('permissões admin');
+//         break;
+//         case 'user' : 
+//         console.log('permissões user');
+//         break;
+//         default :
+//         console.log('permissões default');
+//     }
 
+// Laços
+//     * for
+//     * while
+//     * do...while
+//     * foreach 
 
