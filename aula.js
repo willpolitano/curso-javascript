@@ -117,3 +117,38 @@
 //     }
 
 
+// Encontrar String
+//     const filme = {
+//         titulo : 'Vingadores',
+//         ano : 2018,
+//         diretor : 'Robin',
+//         personagem : 'Thor'
+//     }
+//     exibirPropriedades(filme);
+//     function exibirPropriedades(obj) {
+//         for (prop in obj)
+//             if ( typeof obj[prop] === 'string' )
+//                 console.log(prop,obj[prop])
+//     }
+
+
+//Numeros primos
+
+    let limite = 5;
+    exibirNumerosPrimos(15);
+    function exibirPropriedades(limite) {
+        for ( let numero = 1; numero <= limite; numero++ ) {
+            let ehPrimo = true;
+
+            for ( let divisor = 2; divisor < numero; divisor++ ) {
+                if ( numero % divisor === 0 ) {
+                    ehPrimo = false;
+                    break;
+                } 
+            }
+
+            if ( ehPrimo ) console.log(numero);
+        }
+    }
+
+
