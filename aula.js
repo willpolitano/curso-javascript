@@ -132,23 +132,48 @@
 //     }
 
 
-//Numeros primos
+// Numeros primos
+//     let limite = 5;
+//     exibirNumerosPrimos(15);
+//     function exibirPropriedades(limite) {
+//         for ( let numero = 1; numero <= limite; numero++ ) {
+//             let ehPrimo = true;
+//             for ( let divisor = 2; divisor < numero; divisor++ ) {
+//                 if ( numero % divisor === 0 ) {
+//                     ehPrimo = false;
+//                     break;
+//                 } 
+//             }
+//             if ( ehPrimo ) console.log(numero);
+//         }
+//     }
 
-    let limite = 5;
-    exibirNumerosPrimos(15);
-    function exibirPropriedades(limite) {
-        for ( let numero = 1; numero <= limite; numero++ ) {
-            let ehPrimo = true;
 
-            for ( let divisor = 2; divisor < numero; divisor++ ) {
-                if ( numero % divisor === 0 ) {
-                    ehPrimo = false;
-                    break;
-                } 
-            }
+// Template literal   
+//     const nome = 'Will';
+//     const texto = `Olá ${nome}`;
 
-            if ( ehPrimo ) console.log(numero);
-        }
-    }
+
+// Date
+//     const data = new Date();
+//     const data1 = new Data('March 06 2019 09:30');
+//     const data2 = new Data(2019,03,06,9,30);
+//     date2.getDate();
+//     date2.setFullYear(2030);
+
+
+// let  endereco = {
+//     rua : 'a',
+//     cidade : 'c',
+//     cep : 'e'
+// };
+// function exibirEndereco(endereco) {
+//     for (let chave in endereco)
+//         console.log(chave, endereco[chave]);
+// }
+// exibirEndereco(endereco);
+
+
+
 
 
