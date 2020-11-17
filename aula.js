@@ -201,8 +201,16 @@
 //     console.log(resultado)
 
 
+// Filter
+//     retorna um novo array a partir de um filtro em outro array
+    
+//     const notas = [7.1, 8.3, 6.3, 7.7, 9.1, 5.2]
 
+//     function aprovar(nota) {
+//         return nota > 7
+//     }
 
-
+//     let resultado = notas.filter(aprovar)
+//     console.log(resultado)
 
 
