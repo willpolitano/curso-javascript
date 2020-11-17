@@ -175,5 +175,34 @@
 
 
 
+// Map
+//     Retorna um array baseado em outro array no mesmo tamanho
+//     ex: 
+//     const numeros = [3,4,7,1,9,7];
+//     function dobro(num) {
+//         return num * 2
+//     }
+
+//     const resultado = numeros.map(dobro)
+//     console.log(resultado)
+
+//     const array = [
+//         { nome : '...', preco : 23.69, desconto : 0.2 },
+//         { nome : '...', preco : 236.59, desconto : 0.8 },
+//         { nome : '...', preco : 789.36, desconto : 0.1 },
+//         { nome : '...', preco : 25.12, desconto : 0.5 },
+//     ]
+
+//     function darDesconto(produto) {
+//         return produto.preco * (1 - produto.desconto)
+//     }
+
+//     const resultado = array.map(darDesconto);
+//     console.log(resultado)
+
+
+
+
+
 
 
