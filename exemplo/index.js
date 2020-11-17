@@ -223,6 +223,3 @@
 //     }
 
 //     console.log(numeros.reduce(somar))
-
-
-

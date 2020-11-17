@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Javascript</title>
+    <script src="./aula.js"></script>
+</head>
+
+<style>
+    .container {
+        background-color: #4502cd;
+        color: #fff;
+        display: inline-block;
+        padding: 0 20px;
+        opacity: 1;
+        transition: opacity .3s ease;
+    }
+
+    .container.fade {
+        opacity: .1;
+    }
+</style>
+
+<body>
+    <div class="app">
+
+        <div class="container">
+            <p>Meu primeiro efeito</p>
+        </div>
+        <button id="btnTroca">Troca</button>
+    </div>
+
+    <script>
+
+        //document.querySelector('.app').textContent = 'Olá tripulantes!'
+
+        const btn = document.querySelector('#btnTroca')
+        btn.addEventListener('click', function() {
+            document.querySelector('.container')
+                .classList.toggle('fade')
+        })
+
+    </script>
+</body>
+</html>
