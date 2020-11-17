@@ -203,7 +203,7 @@
 
 // Filter
 //     retorna um novo array a partir de um filtro em outro array
-    
+
 //     const notas = [7.1, 8.3, 6.3, 7.7, 9.1, 5.2]
 
 //     function aprovar(nota) {
@@ -212,5 +212,17 @@
 
 //     let resultado = notas.filter(aprovar)
 //     console.log(resultado)
+
+
+// Reduce
+//     Ele iterará por cada elemento dessa lista com o objetivo de ao final gerar um único valor
+//     const numeros = [1,2,3,4,5]
+
+//     function somar (a, b) {
+//         return a + b 
+//     }
+
+//     console.log(numeros.reduce(somar))
+
 
 
